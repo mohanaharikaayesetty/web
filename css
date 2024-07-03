@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:blue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+header .logo {
+    font-size: 1.2rem;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-color:yellow;
+    background-image:url("https://tse3.mm.bing.net/th?id=OIP.CXfag1i0-oZoGQMhC2HLvQHaEK&pid=Api&P=0&h=180");
+    height:100%;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+#about {
+    background-color:grey;
+    padding: 2rem;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.about-content .about-image {
+    background-color: #d7ccc8;
+    padding: 2rem;
+    text-align: center;
+}
+
+#services {
+    padding: 2rem;
+    text-align: center;
+}
+
+.services-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.services-grid .service {
+    background-color:green;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.more-services {
+    margin-top: 1rem;
+}
+
+.more-services a {
+    text-decoration: none;
+    color: #4a148c;
+}
+
+#products {
+    padding: 2rem;
+    text-align: center;
+}
+
+.products-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.products-grid .product {
+    background-color: blue;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
